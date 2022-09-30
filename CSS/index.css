@@ -1,0 +1,214 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+.header img{
+    width: 250px;
+}
+
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px 0px;
+    margin: 5px 0px 10px;
+}
+
+.header ul li{
+    display: inline;
+
+    /* Margin: space between two tag */
+    margin: 0px 10px;
+    /* top, bot, right, left = 20px */
+    /* margin: 20px; */
+    /* top, bot = 10px; right, left = 20px */
+    /* margin: 10px 20px; */
+    /* top = 20px; right, left = 15px; bot = 20px */
+    /* margin-top: 10px 15px 20px; */
+    /* top = 10px, right = 15px, bot = 20px, left = 25px */
+    /* margin: 10px 15px 20px 25px; */
+
+    /* Padding: space between content and border */
+
+
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Introduction */
+.intro p{
+    font-size: 20px;
+}
+
+.intro p span{
+    color: red;
+    font-weight: bold;
+}
+
+.intro__left, .intro__right{
+    width: 50%;
+    float: left;
+}
+
+.intro__item{
+    padding: 0px 5px 10px 5px;
+}
+
+.intro__smallitem{
+    float: left;
+    width: 50%;
+}
+
+.intro__content{
+    margin-bottom: 80px;
+}
+
+.intro__content img{
+    width: 100%;
+    display: block;
+}
+
+/* Carousel */
+.carousel{
+    background-image: url(../img/carousel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+/* Products */
+.products{
+    margin-bottom: 80px;
+}
+
+.products h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.products__items{
+    width: 25%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.products__items img{
+    width: 100%;
+    border: teal solid 2px;
+}
+
+.products__items h3{
+    font-size: 25px;
+}
+
+.products__items p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.products__items button{
+    padding: 5px 10px;
+    background-color: darkturquoise;
+    color: white;
+    border: skyblue solid 3px;
+    border-radius: 3px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+/* Banner */
+.banner{
+    background-image: url(../img/sale.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+.banner__circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(105, 105, 105, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    /* opacity: 0.8; */
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.banner__circle p{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.banner__circle p:nth-child(1){
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.banner__circle p:nth-child(2){
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+/* SERVICES */
+.services{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.services__item{
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.services__item i{
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.services__item h2{
+    margin: 10px 0;
+}
+
+.services__item p{
+    margin-top: 0;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h2, .footer p{
+    margin: 0;
+}
+
+.footer h2{
+    font-size: 30px;
+}
